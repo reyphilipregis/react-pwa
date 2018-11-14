@@ -10,6 +10,8 @@ export default (props) => (
         <h3>{props.cardInfo.title}</h3>
         <p>{props.cardInfo.description}</p>
 
+        <p><a target="_blank" href={props.cardInfo.uri}>Read More</a></p>
+
           <a target="_blank" href={`https://www.facebook.com/sharer/sharer.php?u=${props.cardInfo.uri}`}>Share on Facebook</a> 
           | <a target="_blank" href={`https://plus.google.com/share?url=${props.cardInfo.uri}`}>Plus on Google+</a> 
           | <a target="_blank" href={`https://twitter.com/intent/tweet?text=${props.cardInfo.title}&url=${props.cardInfo.uri}&via=MRKTRS"`}>Tweet</a> 

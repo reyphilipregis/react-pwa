@@ -9,22 +9,10 @@
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
-  "author": {
-    "name": "Atyantik Technologies",
-    "email": "admin@atyantik.com",
-    "url": "https://www.atyantik.com/"
-  },
+  "author": "Atyantik Technologies <admin@atyantik.com> (https://www.atyantik.com/)",
   "contributors": [
-    {
-      "name": "Tirth Bodawala",
-      "email": "tirthbodawala@atyantik.com",
-      "url": "https://www.atyantik.com/"
-    },
-    {
-      "name": "Yash Thakur",
-      "email": "thakur.yash514@gmail.com",
-      "url": "http://yashthakur.in/"
-    }
+    "Tirth Bodawala <tirthbodawala@atyantik.com> (https://www.atyantik.com/)",
+    "Yash Thakur <thakur.yash514@gmail.com> (http://yashthakur.in/)"
   ],
   "license": "MIT",
   "dependencies": {
@@ -49,5 +37,15 @@
     "unfluff": "^3.2.0",
     "universal-fetch": "^1.0.0"
   },
-  "snyk": true
+  "snyk": true,
+  "main": "cloudinary.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atyantik/react-pwa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Atyantik/react-pwa/issues"
+  },
+  "homepage": "https://github.com/Atyantik/react-pwa#readme"
 }
